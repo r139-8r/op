@@ -1,0 +1,14 @@
+{
+  "name": "op",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm --prefix apps/api run dev",
+    "build": "npm --prefix apps/api run build",
+    "test": "npm --prefix apps/api test",
+    "typecheck": "npm --prefix apps/api run typecheck",
+    "lint": "npm --prefix apps/api run lint"
+  }
+}
